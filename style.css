@@ -13,6 +13,7 @@ body{
     margin: 0;
  }
 
+
 h1{  
     font-size: 2.5rem;
     text-align: center;
@@ -211,7 +212,7 @@ ol.s {list-style-type: inherit;}
     border-radius: 5px;
     padding-bottom: 20px;
     transition: 0.3s;
-    height: 900px;    
+    height: 980px;    
 }
 .card:hover {   
     box-shadow: 0 4px 8px 5px black;
@@ -330,6 +331,26 @@ ol.s {list-style-type: inherit;}
      }
  }
 
+ .skills-container li.php::after{
+    animation-name: php;
+ }
+ 
+ @keyframes php{
+     to{
+         width: 85%;
+     }
+ }
+
+ .skills-container li.laravel::after{
+    animation-name: laravel;
+ }
+ 
+ @keyframes laravel{
+     to{
+         width: 75%;
+     }
+ }
+
 .skills-container li.mysql::after{
    animation-name: mysql;
 }
@@ -340,15 +361,7 @@ ol.s {list-style-type: inherit;}
     }
 }
 
-.skills-container li.laravel::after{
-    animation-name: laravel;
- }
- 
- @keyframes laravel{
-     to{
-         width: 75%;
-     }
- }
+
 
 .skills-container li.git::after{
     animation-name: git;
@@ -408,6 +421,16 @@ ol.s {list-style-type: inherit;}
 @keyframes msoffice{
     to{
         width: 95%;
+    }
+}
+
+.skills-container li.videoediting::after{
+   animation-name: videoediting;
+}
+
+@keyframes videoediting{
+    to{
+        width: 50%;
     }
 }
 
