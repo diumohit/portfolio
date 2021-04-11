@@ -212,7 +212,7 @@ ol.s {list-style-type: inherit;}
     border-radius: 5px;
     padding-bottom: 20px;
     transition: 0.3s;
-    height: 980px;    
+    height: 1020px;    
 }
 .card:hover {   
     box-shadow: 0 4px 8px 5px black;
