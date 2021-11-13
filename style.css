@@ -1,5 +1,6 @@
 /*for mobile devices */
 
+
 html{
     scroll-behavior: smooth;
 }
@@ -61,14 +62,23 @@ p{
  .navbar{
      background-color: #39acac;
      background-image: linear-gradient(to right, rgb(155, 195, 202), rgb(34, 160, 165));
-     padding: 1% 7%;
+     padding: 0% 4%;
      text-align: center;
+     border-bottom: 4px solid black;
  }  
 
- .nav-heading h1{
-    color: white; 
+.nav-logo img{
+
+    padding: 0;
+}
+
+ .nav-heading h2{
+    color: black; 
     margin: 0;    
     padding-top: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    
        
  }
 
@@ -104,6 +114,12 @@ p{
     position: relative;    
     padding: 130px 10px;
     text-align: center; 
+    background: url(./images/0_pO3Ml2EOdEZ1JJzQ.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 150%;
+   
+    
+    
 }
 
 .profile .top-colon-icon{
@@ -124,7 +140,7 @@ p{
 }
 
 .profile-desc p{   
-    color: gray;  
+    color: black;  
     margin: 0 auto 20px auto;
     text-align: center;  
     width: 90%;    
@@ -212,7 +228,7 @@ ol.s {list-style-type: inherit;}
     border-radius: 5px;
     padding-bottom: 20px;
     transition: 0.3s;
-    height: 1020px;    
+    height: 1080px;    
 }
 .card:hover {   
     box-shadow: 0 4px 8px 5px black;

@@ -16,11 +16,12 @@
 
 /* navbar designing starts here */
 .nav-logo{
-    text-align: left;
+    text-align: right;
 }
 
-.nav-heading h1{
-    text-align: right;    
+.nav-heading h2{
+    text-align: left;  
+    margin-right: 100px;  
 }
 
 .navbar-menu{            
